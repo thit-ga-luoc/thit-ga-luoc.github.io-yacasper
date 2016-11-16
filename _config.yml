@@ -14,18 +14,18 @@ author:
   bio: Verschiedene Notizen über Deutsche Sprache. Für Alle, auf Deutsch.
   location: Darmstadt, Germany
   image: assets/images/Ampelmann.png
-  url: http://aufdeutsch.github.io
+  url: http://thit-ga-luoc.github.io
 
 # Edit baseurl to simply '/' if using as your personal page (for project page, use /projectname/)
 # edit url to your site full url, e.g. http://yourname.github.io/ (for personal page) or http://yourname.github.io/projectname/
 # don't forget the trailing slash
 baseurl: /
-url: http://aufdeutsch.github.io/
+url: http://thit-ga-luoc.github.io/
 
 # ID for Google analytics, leave as '-' to turn it off
-google_analytics: 'UA-75106109-1'
+google_analytics: '-'
 # Username for disqus comments, leave as '-' to turn them off
-disqus: 'aufdeutschgithubio'
+disqus: '-'
 
 # Jykell configuration, edit only if necessary
 markdown: kramdown
