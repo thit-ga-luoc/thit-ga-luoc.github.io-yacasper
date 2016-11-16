@@ -1,6 +1,6 @@
 ---
 # Specify layout as "page" for every separate page which is not post.
-layout: page
+layout: home
 # This tag is used for highlighting in sidebar, specify it if you add this page to sidebar in _includes/navigation.html
 current: about
 # Title of the page
