@@ -1,0 +1,10 @@
+# Edit tags here. Description and image are optional and used in tag pages
+# Every tag record here should start with "-"
+# Don't forget to create a template in tag/ directory for every new tag!
+-
+  tag: testtag
+  description: It's a test tag. Edit this information in _data/tags.yml. Don't forget to add a template in tag/ as well.
+  image: assets/images/cover1.jpg
+-
+  tag: testtag2
+  description: I'm another test tag. Edit this information in _data/tags.yml. Don't forget to add a template in tag/ as well.

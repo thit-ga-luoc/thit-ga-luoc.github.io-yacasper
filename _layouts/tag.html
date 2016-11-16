@@ -1,0 +1,45 @@
+---
+layout: default
+class: 'tag-template'
+navigation: true
+logo: assets/images/ghost.png
+---
+<!--HACK: tag is parsed from the URL-->
+{% assign tag_id = page.path | replace:'.html','' | split:"/" | reverse | first %}
+{% assign t = site.data.tags | where:"tag", tag_id | first %}
+{% assign tag= t.tag %}
+
+{% assign all_tags = site.tags[tag] %}
+{% assign all_tags_size = site.tags[tag] | size %}
+<!-- < default}} -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
+
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head {% if t.image %}" style="background-image: url({{ site.baseurl }}{% if new_cover %}{{ new_cover }}{% else %}{{ t.image }}{% endif%}) {% else %}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
+        {% if page.navigation %}
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        {% endif %}
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ tag | capitalize }}</h1>
+            <h2 class="page-description">
+            {% if t.description %}
+                {{ t.description }}
+            {% elsif tag %}
+			    A {{ all_tags_size }}-post collection
+            {% endif %}
+            </h2>
+        </div>
+    </div>
+</header>
+
+<!-- The main content area on the homepage -->
+<main id="content" class="content" role="main">
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    {% assign loop_url = {{site.baseurl}}/tag/{{tag}}/ %}
+    {% include loop.html posts=all_tags url=loop_url %}
+
+</main>
