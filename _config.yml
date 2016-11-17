@@ -1,19 +1,19 @@
 # Website title and description
 # It will appear on home page, in your document head meta (for
 # Google search results) and in your feed.xml site description."
-name: Deutsch für Algernon
-description: "Verschiedene Notizen über deutscher Sprache. Für Alle, auf Deutsch."
-cover: 'assets/images/b2.jpg'
+name: Thịt Gà Luộc
+description: "a.place.for.random.notes"
+cover: 'assets/images/tgl-cover.png'
 
 # Single author mode. If enabled, 'author' description is used everywhere, author page is disabled.
 # Otherwise, edit authors in _data/authors.yml
 single_author: true
 author:
-  id: aufdeutsch
-  name: Deutsch für Algernon
-  bio: Verschiedene Notizen über Deutsche Sprache. Für Alle, auf Deutsch.
-  location: Darmstadt, Germany
-  image: assets/images/Ampelmann.png
+  id: nghe-nhan-luoc-ga
+  name: Nghệ Nhân Luộc Gà
+  bio: đơn giản là một nghệ nhân yêu nghề 25 năm kinh nghiệm
+  location: Vietnam
+  image: assets/images/nnlg.png
   url: http://thit-ga-luoc.github.io
 
 # Edit baseurl to simply '/' if using as your personal page (for project page, use /projectname/)
