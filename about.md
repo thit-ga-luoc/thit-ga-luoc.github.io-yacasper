@@ -8,7 +8,7 @@ title: Deutsche Sprache, spannende Sprache!
 # Permalink, as separate pages don't appear in post list
 permalink: /about/
 # path to cover image, e.g. assets/images/path/to/cover.img
-cover: 'assets/images/about.jpg'
+cover: 'assets/images/b2.jpg'
 ---
 Deutsch ist die liebste Sprache der Welt! Shau mal:
 
