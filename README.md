@@ -1,3 +1,3 @@
-Some random notes about Germany and Germans, for everyone, in German, to practice writing.
+a.place.for.random.notes
 
-Made using [Jekyll](https://github.com/jekyll/jekyll) with [YaCasper](https://github.com/mtuner/YaCasper) theme.
+Made with [Jekyll](https://github.com/jekyll/jekyll) with [YaCasper](https://github.com/mtuner/YaCasper) theme.
