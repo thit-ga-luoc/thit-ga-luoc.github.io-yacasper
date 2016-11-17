@@ -12,7 +12,7 @@ logo: 'assets/images/ghost.png'
 <!-- Everything inside the #post tags pulls data from the page -->
 <!-- #post -->
 
-<header class="main-header post-head {% if layout.cover %}" style="background-image: url({{ site.baseurl }}{{ layout.cover }}){% else %}no-cover{% endif %}">
+<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}){% else %}no-cover{% endif %}">
     <nav class="main-nav {% if layout.cover %}overlay{% endif %} clearfix">
         {% if layout.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ layout.logo }}" alt="Blog Logo" /></a>{% endif %}
         {% if layout.navigation %}
