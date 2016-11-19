@@ -3,7 +3,7 @@
 # Google search results) and in your feed.xml site description."
 name: ...
 description: "a.place.for.random.notes"
-cover: 'assets/images/tgl-cover.png'
+cover: 'assets/images/westworld-1.jpg'
 
 # Single author mode. If enabled, 'author' description is used everywhere, author page is disabled.
 # Otherwise, edit authors in _data/authors.yml
